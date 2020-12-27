@@ -50,7 +50,7 @@
 #
 # Concurrency Level:      1
 # Time taken for tests:   1.599 seconds
-# Complete requests:      10
+# Complete requests:      100
 # Failed requests:        0
 # Total transferred:      2600 bytes
 # Total body sent:        10560
@@ -70,4 +70,4 @@
 # Total:        114  160  28.0    172     199#
 
 
- ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer REPLACE_WITH_KEY' http://REPLACE_WITH_API_URL/score
+ ab -n 100 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer sYHDEESuAFRf3EOJBi0E9VpJ950d0QPP' http://e80a1e3e-f005-475f-b079-c1430cf5927b.westus2.azurecontainer.io/score
